@@ -1,6 +1,6 @@
 let num;
 
-console.log("informeum número:");
+console.log("informe um número: ");
 num = 10;
 console.log(`número informado: ${num}`);
 
