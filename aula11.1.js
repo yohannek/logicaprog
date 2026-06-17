@@ -6,4 +6,3 @@ num1 = "22";
 
 div = 22/2 
 console.log("a metade deste número é:", div);
-
