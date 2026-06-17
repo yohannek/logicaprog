@@ -28,3 +28,6 @@ console.log("a soma dos 4 valores inseridos é", soma);
 
 mult = num1 * num2 * num3 * num4;
 console.log("a multiplicaçao dos 4 valores inseridos é", mult);
+
+
+//comentario inserido em 17/06/26
