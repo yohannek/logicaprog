@@ -5,15 +5,15 @@ let sexo
 console.log("1 - feminino");
 console.log("2 - masculino");
 console.log("Informe o seu sexo, a seguir:");
-sexo = 1;
+sexo = 5;
 console.log(`sexo inserido: ${sexo}`);
 
 switch(sexo) {
     case 1:
-        console.log("você escolheu 1 - feminino");
+        console.log("banheiro feminino à esquerda");
         break;
     case 2:
-        console.log("você escolheu 2 - masculino");
+        console.log("banheiro masculino à direita");
         break;
     default:
         console.log("ERRO: Sexo informado não é válido");
