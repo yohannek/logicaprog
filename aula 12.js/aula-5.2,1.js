@@ -7,4 +7,4 @@ do {
     console.log (cont);
    }
     cont = cont + 1;
-} while ( cont <= 200 );
+} while (cont <= 200);
