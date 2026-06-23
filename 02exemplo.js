@@ -7,6 +7,9 @@ let alunos = ["Ana", "Bruno", "Carlos", "Diana" , "Raimundo"]; // Ana conta como
 //Vetor notas de alunos.
 let notas = [8.5 , 3 , 8 , 10 , 9];
 
+//Vetor de números
+let numeros = [6 , 23 , -7 , 18 , 4 , 92 , 15 , 33 , 0 , 50];
+
 
 
 console.log(alunos); // Exibe os dados do vetor todo.
@@ -102,3 +105,15 @@ console.log(alunos);
 
 alunos.shift();
 console.log(alunos);
+
+
+
+console.log(numeros);
+
+// Ordem crescente
+numeros.sort( (a, b) => a - b);
+console.log(numeros);
+
+// Ordem decrescente
+numeros.sort( (a, b) => b - a);
+console.log(numeros);
